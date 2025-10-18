@@ -4,6 +4,6 @@ terraform {
     key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
-    dynamodb_table = "humangov-terraform-state-lock-table"
+    dynamodb_table = "tcb-devops-state-lock-table"
   }
 }
